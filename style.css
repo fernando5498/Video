@@ -345,6 +345,12 @@ Es mejor trabajar el tamaño de barios items con scala para que todos tengan un 
     .showcase.active {
         right: 250px !important;
     }
+    .text h2 {
+        font-size: 2.5em;
+    }
+    .text h3 {
+        font-size: 1.5em;
+    }
 }
 
 @media(max-height:500px) {
