@@ -68,7 +68,7 @@ buscar_btn.addEventListener('click', () => {
 })
 
 document.querySelector('.cerrar_bus').addEventListener('click', () => {
-    document.querySelector('.buscador').style.left = "-100%"
+    document.querySelector('.buscador').style.left = "-150%"
 
 })
 
