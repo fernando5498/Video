@@ -339,7 +339,7 @@ Es mejor trabajar el tamaño de barios items con scala para que todos tengan un 
 }
 
 @media(max-width: 650px) {
-    .toggle.active {
+    .menu-burger.active {
         right: 250px !important;
     }
     .showcase.active {
