@@ -362,7 +362,7 @@ Es mejor trabajar el tamaño de barios items con scala para que todos tengan un 
     }
     .social {
         flex-direction: column;
-        right: 40px;
+        right: 20px;
         bottom: auto;
     }
 }
