@@ -1,6 +1,6 @@
 const menuToggle = document.querySelector('.toggle')
 const showcase = document.querySelectorAll('.showcase')
-const logo = document.querySelector('.logo')
+const menu = document.querySelector('.menu-burger')
 const menu_link = document.querySelectorAll('.menu ul li a')
 const videos = document.querySelectorAll('.videos')
 
@@ -19,7 +19,7 @@ menuToggle.addEventListener('click', () => {
         page.classList.toggle('active');
     })
     menuToggle.classList.toggle('active')
-    logo.classList.toggle('active')
+    menu.classList.toggle('active')
 })
 
 
