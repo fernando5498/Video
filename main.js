@@ -4,6 +4,16 @@ const logo = document.querySelector('.logo')
 const menu_link = document.querySelectorAll('.menu ul li a')
 const videos = document.querySelectorAll('.videos')
 
+window.onload = function() {
+
+    for (let i = 0; i < menu_link.length; i++) {
+        menu_link[i].click()
+        menu_link[0].click()
+    }
+    document.body.style.opacity = '1'
+}
+
+
 menuToggle.addEventListener('click', () => {
     showcase.forEach((page) => {
         page.classList.toggle('active');
