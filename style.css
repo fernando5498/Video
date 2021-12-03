@@ -339,5 +339,7 @@ Es mejor trabajar el tamaño de barios items con scala para que todos tengan un 
     .showcase.active {
         right: 250px !important;
     }
-    .buscar_text {}
+    .toggle.active {
+        right: 250px;
+    }
 }
